@@ -36,6 +36,7 @@ font-size: 25px;
 	
 }
 .NAME{background:#fff; text-align:center; border-bottom:1px solid #ccc;}
+.NAME p{color: #A1A2A4;}
 .NAME a{text-decoration: none; color:#1876F2; font-weight:bold; }
 .navsection{background:#fff;}
 .menu{float:left; }
