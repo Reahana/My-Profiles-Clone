@@ -5,7 +5,9 @@ body{background:#F0F2F5; font-family:arial; position:relative;}
 .temp{width:850px; margin:0 auto;}
 .upper{background:#fff;}
 .fixedsection{width:1000px; background:#fff; position:fixed;}
-.one{}
+.one a{
+    color: #000;
+}
 .one i{float: left;
     padding: 10px;
     font-size: 25px;
@@ -17,6 +19,7 @@ border-radius:30px; padding-left: 10px;}
     padding-bottom: 10px;
     padding-right: 50px;
 font-size: 25px;
+color: #000;
 }
 .two a:first-child{padding-left:250px;}
 .three a:first-child{padding-right: 10px;}
@@ -24,7 +27,9 @@ font-size: 25px;
     font-size: 25px;
     padding-left: 30px;
     padding-top: 10px;
-    padding-bottom: 10px;}
+    padding-bottom: 10px;
+    color: #000;
+}
 .PIC{background:url(images/coverpic.jpg) ;min-height:300px;}
 .PIC img{ 
 	width: 150px;
@@ -67,12 +72,25 @@ padding: 10px;
     margin-bottom: 15px;
     margin-top: 15px;
 padding: 10px;}
+.lock a{ text-decoration: none;padding-top: 3px;}
 .intro{background: #fff;
     padding: 10px;
     line-height: 22px;
 }
+.intro button {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 7px 110px;
+    margin: 5px 4px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    width: 300px;
+}
 .intro h2{padding-bottom:8px;}
 .intro a{display: block; padding:5px; color:#000; }
+.intro i a{text-decoration: none ; color:#1876F2; padding-left: 18px;}
 .mainsection {width:530px; float:right; margin-right:5px;}
 .posting{background:#fff; margin-top:15px;}
 .p1{border-bottom: 1px solid #ddd;
@@ -100,6 +118,7 @@ padding: 10px;}
     display: block;
     padding: 13px 32px 13px 32px;
     margin: 2px;
+    color: #000;
 } 
 .post{background:#fff; margin-top:15px;}
 .set{border-bottom: 1px solid #ddd;
