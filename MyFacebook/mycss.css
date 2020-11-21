@@ -50,9 +50,13 @@ color: #000;
 .menu ul li a{
     text-decoration: none;
 display: block;
-padding: 10px;
-    font-size: 20px;
-	    color: #A1A2A4;}
+padding: 16px;
+    font-size: 16px;
+	    color: #707275;
+		font-weight:bold;}
+.menu ul li a:hover{background:#F2F2F2;}
+#active{color:#247DF2; border-bottom:3px solid #247DF2;}
+#active:hover{background:#fff;}
 .others{ }
 .others ul{ }
 .others ul li{float: right; display:block; }
@@ -72,16 +76,16 @@ padding: 10px;
     margin-bottom: 15px;
     margin-top: 15px;
 padding: 10px;}
-.lock a{ text-decoration: none;padding-top: 3px;}
+.lock a{ text-decoration: none;padding-top: 3px;color:#247DF2;}
 .intro{background: #fff;
     padding: 10px;
     line-height: 22px;
 }
 .intro button {
-    background-color: #000;
-    color: #fff;
+    background-color: #F2F2F2;
+    color: #000;
     text-align: center;
-    padding: 7px 110px;
+    padding: 7px 108px;
     margin: 5px 4px;
     font-size: 16px;
     border: none;
