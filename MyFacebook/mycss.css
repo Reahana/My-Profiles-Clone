@@ -11,17 +11,17 @@ body{background:#F0F2F5; font-family:arial; position:relative;}
 .one i{float: left;
     padding: 10px;
     font-size: 25px;
-	}
+	padding-right: 200px;}
 .one img{float:left;width:35px; padding-top:5px;
 border-radius:30px; padding-left: 10px;}
-.two a{float: left;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 50px;
-font-size: 25px;
-color: #000;
+.two a {
+    float: left;
+    font-size: 25px;
+    color: #000;
+    padding: 10px 35px 10px 35px;
 }
-.two a:first-child{padding-left:250px;}
+.two a:hover{background-color: #F2F2F2;}
+
 .three a:first-child{padding-right: 10px;}
 .three a{float: right;
     font-size: 25px;
@@ -29,6 +29,7 @@ color: #000;
     padding-top: 10px;
     padding-bottom: 10px;
     color: #000;
+    
 }
 .PIC{background:url(images/coverpic.jpg) ;min-height:300px;}
 .PIC img{ 
@@ -36,7 +37,7 @@ color: #000;
     border-radius: 102px;
     display: block;
     margin-left: 360px;
-    margin-top: 160px;
+    margin-top: 178px;
 
 	
 }
@@ -57,8 +58,8 @@ padding: 16px;
 .menu ul li a:hover{background:#F2F2F2;}
 #active{color:#247DF2; border-bottom:3px solid #247DF2;}
 #active:hover{background:#fff;}
-.others{ }
-.others ul{ }
+
+
 .others ul li{float: right; display:block; }
 .others ul li a {
     text-decoration: none;
@@ -82,15 +83,16 @@ padding: 10px;}
     line-height: 22px;
 }
 .intro button {
-    background-color: #F2F2F2;
+    background-color: #D8DADF;
     color: #000;
     text-align: center;
-    padding: 7px 108px;
+    padding: 7px 105px;
     margin: 5px 4px;
     font-size: 16px;
     border: none;
     border-radius: 3px;
     width: 300px;
+    font-weight: 600;
 }
 .intro h2{padding-bottom:8px;}
 .intro a{display: block; padding:5px; color:#000; }
@@ -140,7 +142,7 @@ padding: 10px;}
     padding: 10px;
     margin: 10px 10px 7px 12px;
 border-radius: 8px;}
-.view{}
+
 .view ul{margin:0; padding:0;list-style:none;}
 .view ul li{display:block; float:left;}
 .view ul li a{text-decoration: none;
