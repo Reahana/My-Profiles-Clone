@@ -1,0 +1,8 @@
+*{margin:0; padding:0; outline:0;}
+body{font-family:arial; font-size:18px;background:#F0F2F5; }
+.page{background: #ffffff;
+    padding: 10px;
+    width: 356px;
+    margin: 22px;
+    float: right;}
+    .button{ background-color: #166FE5;color: #ffffff; padding: 10px 50px;text-align: center;}
