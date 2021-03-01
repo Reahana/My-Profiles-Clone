@@ -4,6 +4,7 @@ body{background:#F0F2F5; font-family:arial; position:relative;}
 .clear{overflow:hidden;}
 .temp{width:850px; margin:0 auto;}
 .upper{background:#fff;}
+
 .fixedsection{width:1000px; background:#fff; position:fixed;}
 .one a{
     color: #000;
